@@ -15,10 +15,5 @@ spec:
     ports:
       - name: http
         containerPort: 80
-  #create tomcat container
-  - name: tomcat
-    image: tomcat
-    ports:
-      - name: java
-        containerPort: 8080
+  
 
