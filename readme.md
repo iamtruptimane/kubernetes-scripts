@@ -1,5 +1,6 @@
 ## pod.yaml file commands
  kubectl apply -f pod.yaml
+ kubectl get pods -o wide
  kubectl delete -f pod.yaml
  kubectl exec -it -n dev my-pod -c nginx -- bash
 
